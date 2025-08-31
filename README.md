@@ -36,6 +36,7 @@ Insights derived from the `cohort_analysis` table were visualized using **Databr
 
 ### 📈 Retention Rate by Cohort
 *(Screenshot: visualizations/retention.png)*
+![Data Lineage Graph](visualizations/retention.png)
 This visualization shows the percentage of customers who placed a second order within specific timeframes (e.g., 1, 2, and 3 months) after their first purchase.
 
 ### 📈 Repeat Purchase Rate by Cohort
