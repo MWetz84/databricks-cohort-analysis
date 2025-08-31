@@ -26,7 +26,7 @@ The analysis was performed using **Databricks SQL Endpoints** and involved sever
 3.  **Days Between Purchases:** Calculated the time difference (in days) between the first and second purchases.
 4.  **Cohort Table Creation:** The transformed data was saved as a new table (`cohort_analysis`) to serve as the foundation for subsequent visualizations.
 
-*(Refer to the `sql/DA114.5-create_cohort_analysis-DELTA.sql` for the initial transformation logic, and `sql/DA114.5-Project_Cohort_analysis-unified_query.sql` for the refined, unified query.)*
+*(Refer to `sql/DA114.5-Project_Cohort_analysis-unified_query.sql` for the unified query.)*
 
 ## 📊 Visualizations & Key Insights
 
