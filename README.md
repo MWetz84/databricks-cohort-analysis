@@ -39,11 +39,11 @@ Insights derived from the `cohort_analysis` table were visualized using **Databr
 This visualization shows the percentage of customers who placed a second order within specific timeframes (e.g., 1, 2, and 3 months) after their first purchase.
 
 ### 📈 Repeat Purchase Rate by Cohort
-*(Screenshot: `visualizations/repeat_purchase_rates.png`)*
+*(Screenshot: visualizations/repeat_purchase_rates.png)*
 This visualization illustrates the percentage of customers who placed a 2nd, 3rd, and 4th order, providing insights into customer loyalty and purchasing depth.
 
 ### 📈 Cohort Size by Month
-*(Screenshot: `visualizations/cohort_size_by_month.png`)*
+*(Screenshot: visualizations/cohort_size_by_month.png)*
 This visualization tracks the number of new customers acquired each month, allowing for an understanding of cohort growth and acquisition trends.
 
 ## 🔧 Technical Stack
