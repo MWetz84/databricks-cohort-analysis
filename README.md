@@ -64,8 +64,8 @@ To run this project in your Databricks environment:
     *   Create a table named `ecom_orders` in your desired database/schema (e.g., `workspace.bigquery_db_cohortdb.ecom_orders` as referenced in the SQL queries) that points to this uploaded CSV data.
 3.  **Run SQL Transformations:**
     *   Open a new SQL notebook or query editor in Databricks.
-    *   Copy and paste the SQL queries from the `sql/` directory (starting with `DA114.5-create_cohort_analysis-DELTA.sql` if you want to see the initial approach, or directly use `DA114.5-Project_Cohort_Analysis-unified_query.sql` for the refined solution).
-    *   Execute the queries to create the `cohort_analysis` table.
+    *   Copy and paste the content of `sql/DA114.5-Project_Cohort_Analysis-unified_query.sql` into a SQL cell or query editor.
+    *   Execute the query to create the `cohort_analysis` table.
 4.  **Create Visualizations:**
     *   Use the `cohort_analysis` table to recreate the visualizations as described in the "Visualizations & Key Insights" section, using Databricks Dashboards.
 
