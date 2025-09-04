@@ -16,7 +16,7 @@
 
 -- CTE 1: Order Sequencing
 -- The first step is to understand each customer's journey. We use ROW_NUMBER() to
--- assign a sequence number (1st order, 2nd order, etc.) to every order for every customer. GROUP BY does not work here - see query 'DA114.5-create_cohort_analysis-DELTA'
+-- assign a sequence number (1st order, 2nd order, etc.) to every order for every customer.
 CREATE OR REPLACE TABLE cohort_analysis USING DELTA AS
 WITH order_sequence AS (
   SELECT
